@@ -51,3 +51,10 @@ index.html > index.md > README.md
 2. 按http://jekyllrb.com/docs/structure/提示的结构，创建目录结构
 3. 修改/_layouts/default.html，指定title为{{page.title}}, body为{{content}}。
 4. 修改/_posts/xxx.md。在文章开头，有一个yaml文件头，用来设置一些元数据。它用三根短划线"---"和标记开始和结束，里面的每一行设置一种元数据。"layout: default"表示该文章的模板使用_layouts目录下的default.html文件。 "title: xxx"表示该文章的标题是xxx，如果不设置这个值，默认使用嵌入文件名的标题。在yaml文件头的后面，就是文章的正式内容，里面可以使用模板变量。{{page.title}}就是文件头中设置的标题，{{page.date}}则是嵌入文件名的日期，也可以在文件头重新定义date变量。 "| date_to_string"表示将page.date变量转换成人类可读的格式。
+5. 修改index.html，遍历posts，显示成列表。
+刷新显示时，可以看到posts显示在列表中，点击可跳转到相关Post页面，但问题是，设置的cayman主题没有起作用，页面显示是空白，没有主题。
+
+### step 11
+修复主题显示
+step 10最后显示不了主题，是因为使用layouts中定义的default.html作为主题，所以不指定layout，并且把layout中的default.html修改文件名即可。并且需要把index.html修改为index.md，否则主题还是会显示不出来
+修改后的
