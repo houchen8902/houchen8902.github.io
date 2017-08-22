@@ -40,3 +40,7 @@ jkeyll会自动解析index.md中的内容并显示，并应用cayman样式。头
 ### step 8
 创建目录hello, 将index.html和index.md移入其中，然后刷新显示README.md中的内容，并应用cayman样式。
 说明显示优先级README.md > child.html。
+
+### step 9
+将README.md移到hello文件中，此时工程根目录只有child.html和note.md，刷新，页面显示404 not found，表明gitpages只能以index.html, index.md, README.md为首页，且优先级顺序为:
+index.html > index.md > README.md
