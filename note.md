@@ -36,3 +36,7 @@ jkeyll会自动解析index.md中的内容并显示，并应用cayman样式。头
 ### step 7
 把hello.html修改为index.html，刷新页面，显示的是index.html中的内容，显示效果与step 5相同。
 说明显示优先级 index.html > index.md > hello.html
+
+### step 8
+创建目录hello, 将index.html和index.md移入其中，然后刷新显示README.md中的内容，并应用cayman样式。
+说明显示优先级README.md > child.html。
