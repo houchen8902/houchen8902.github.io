@@ -13,5 +13,12 @@ README.md显示一篇文章。
 
 ### step 3
 为index.html指定样式。
+`<link rel="stylesheet" type="text/css" href="./index.css">`
 在根目录创建index.css样式表，并为段落修改样式为蓝色，然后在index.html中引用index.css。
 此时再访问页面，显示的段落文字颜色就变成了蓝色。
+
+### step 4
+添加子页面跳转
+添加子页面child.html，在index.html中添加跳转链接，链接使用相对路径接向子页面，如下。
+`<a href="./child.html">静夜思*李白</a>`
+重新访问页面，可以看到链接，点击会跳转到child.html页面，跳转后的链接地址为`https://houchen8902.github.io/child.html`。
