@@ -10,3 +10,8 @@ README.md显示一篇文章。
 ### step 2
 在工程根目录添加index.html文件，里面添加一个标题和一个段落。
 此时再访问https://houchen8902.github.io/，整个页面就显示index.html的内容。第一，不再显示README.md，第二，不再使用cayman样式。
+
+### step 3
+为index.html指定样式。
+在根目录创建index.css样式表，并为段落修改样式为蓝色，然后在index.html中引用index.css。
+此时再访问页面，显示的段落文字颜色就变成了蓝色。
