@@ -27,3 +27,8 @@ README.md显示一篇文章。
 添加子页面绝对路径跳转
 在根目录创建pages目录，复制child.html到pages目录。在index.html中添加链接，路径使用绝对地址'/pages/child.html'。
 重新访问页面，点击使用绝对路径的链接，可以跳转到子页面，子页面链接地址为`https://houchen8902.github.io/pages/child.html`。
+
+### step 6
+添加index.md，修改index.html文件名为hello.html，刷新页面，显示的内容为index.md中的内容。
+jkeyll会自动解析index.md中的内容并显示，并应用cayman样式。头部显示与step1相同。
+说明显示优先级 index.md > README.md。
