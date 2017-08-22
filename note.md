@@ -32,3 +32,7 @@ README.md显示一篇文章。
 添加index.md，修改index.html文件名为hello.html，刷新页面，显示的内容为index.md中的内容。
 jkeyll会自动解析index.md中的内容并显示，并应用cayman样式。头部显示与step1相同。
 说明显示优先级 index.md > README.md。
+
+### step 7
+把hello.html修改为index.html，刷新页面，显示的是index.html中的内容，显示效果与step 5相同。
+说明显示优先级 index.html > index.md > hello.html
