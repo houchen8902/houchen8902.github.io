@@ -22,3 +22,8 @@ README.md显示一篇文章。
 添加子页面child.html，在index.html中添加跳转链接，链接使用相对路径接向子页面，如下。
 `<a href="./child.html">静夜思*李白</a>`
 重新访问页面，可以看到链接，点击会跳转到child.html页面，跳转后的链接地址为`https://houchen8902.github.io/child.html`。
+
+### step 5
+添加子页面绝对路径跳转
+在根目录创建pages目录，复制child.html到pages目录。在index.html中添加链接，路径使用绝对地址'/pages/child.html'。
+重新访问页面，点击使用绝对路径的链接，可以跳转到子页面，子页面链接地址为`https://houchen8902.github.io/pages/child.html`。
