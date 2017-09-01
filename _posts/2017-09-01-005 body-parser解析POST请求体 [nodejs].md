@@ -15,7 +15,7 @@ POST请求的请求体类型及编码，在请求头的Content-Type中指定。
 
 ## 安装[body-parser][1]
 
-`$ npm install body-parser -g`  
+`$ npm install body-parser [-g]`  
 
 ## 基本使用
 
