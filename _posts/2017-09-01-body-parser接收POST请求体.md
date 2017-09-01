@@ -63,8 +63,8 @@ Content-Encoding: gzip
 
 chyingp
 ```
-**Content-Type**: 请求报文主体的类型、编码。常见的类型有：`text/plain`, `application/json`, `application/x-www-form-urlencoded`, `multipart/form-data`。常见的编码有`utf-8`, `gbk`。  
-**Content-Encoding**: 声明报文主体的压缩格式，常见有`gzip`, `deflate`, `identity`。  
+**Content-Type**: 请求报文主体的类型、编码。常见的类型有：`text/plain`，`application/json`，`application/x-www-form-urlencoded`，`multipart/form-data`。常见的编码有`utf-8`，`gbk`。  
+**Content-Encoding**: 声明报文主体的压缩格式，常见有`gzip`，`deflate`，`identity`。  
 **报文主体**： `chyingp`。  
 
 ## options
