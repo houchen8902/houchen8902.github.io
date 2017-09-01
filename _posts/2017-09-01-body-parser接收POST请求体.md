@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 005 body-parser解析请求体
+title: 005 body-parser解析POST请求体
 ---
 
-# body-parser解析请求体
+# body-parser解析POST请求体
 
 POST请求的请求体，可能包含多种类型，需要解析之后，才能使用。express提供了中间件`body-parser`用于解析POST请求的请求体，其它用于解析请求体的模块有`body`、`co-body`。  
 
