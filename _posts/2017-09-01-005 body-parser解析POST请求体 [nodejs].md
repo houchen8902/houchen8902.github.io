@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 005 [nodejs] body-parser解析POST请求体
+title: 005 body-parser解析POST请求体 [nodejs]
 ---
 
 # [body-parser][1]解析POST请求体
