@@ -73,6 +73,7 @@ auth = false
 `mongoimport -d dbname -c collectionname --file filename --headerline --type json/csv -f field`  
     --headerline    如果导入的格式是csv，则可以使用第一行的标题作为导入的字段
 
+
 ## 远程连接准备
 
 ### 修改安全组
