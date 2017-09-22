@@ -55,7 +55,7 @@ auth = false
 
 ### 启动停止服务
 启动服务：`mongo --config /etc/mongodb.conf`  
-停止服务：`ps -ef | grep mongo`, 'kill -9 pid'  
+停止服务：`ps -ef | grep mongo`, `kill -9 pid`  
 
 ### 导出数据库文件到json文件中
 使用mongoexport命令，可以将mongodb数据库导出到json/csv文件中。注意，导出时，是按collection逐个导出。命令格式如下：  
