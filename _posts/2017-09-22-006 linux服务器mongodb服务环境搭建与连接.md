@@ -9,7 +9,7 @@ title: 006 linux服务器mongodb服务环境搭建与连接
 ## 服务器安装配置mongodb服务
 
 ### 下载安装包
-centos上使用的mongodb需要是redhat对应的版本，安装包选择CommunityServer -> Linux -> RHEL 7 Linux 64-bit x64[mongodb-linux-x86_64-rhel70-3.4.7.tgz][1]。
+centos上使用的mongodb需要是redhat对应的版本，安装包选择CommunityServer -> Linux -> RHEL 7 Linux 64-bit x64([mongodb-linux-x86_64-rhel70-3.4.7.tgz][1])。
 
 ### 从mac上传安装包到centos
 从mac电脑上，通过shell，使用scp命令上传安装包到centos。  
