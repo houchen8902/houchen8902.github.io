@@ -42,7 +42,7 @@ touch /etc/mongod.conf
 　　首先在`/etc/profile`文件最后添加`export PATH=$PATH:/usr/local/server/mongodb/bin`。然后执行`source /etc/profile`使配置生效。这样，在所有路径中都能使用mongodb命令。  
 
 ### 编辑配置文件
-　　编译mongodb.conf文件，指定数据库存放位置、log文件等。注意，首次启动时，因为还没有添加用户和密码，所以auth配置要设置为false，这样所有用户都能操作数据库，有很大的安全风险，所以随后会介绍如何为数据库添加用户和密码，然后将auth设置为true，这样再次启动mongodb服务后，访问该数据库就需要使用用户和密码登录，否则访问不了数据库，这样就保证了安全性。
+　　编译mongodb.conf文件，指定数据库存放位置、log文件等。注意，首次启动时，因为还没有添加用户和密码，所以auth配置要设置为false，这样所有用户都能操作数据库，有很大的安全风险，所以随后会介绍如何为数据库添加用户和密码，然后将auth设置为true，这样再次启动mongodb服务后，访问该数据库就需要使用用户和密码登录，否则访问不了数据库，这样就保证了安全性。  
 　　注意，不能设置bindip项，如果bindip设置为127.0.0.1，那么远程客户端就不能通过服务器Ip访问服务器mongodb数据库。不设置bindip，那么远程客户端和服务器本身都可以访问服务器数据库。  
 ```
 dbpath = /usr/local/server/mongodb/data
@@ -118,7 +118,7 @@ if count > 0:
 ```
 
 ### node连接
-``` nodejs
+``` javascript
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
